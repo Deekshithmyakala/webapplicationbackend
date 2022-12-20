@@ -1,9 +1,9 @@
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-  datasource:
-    url: jdbc:postgres://bhskatbhfdioxd:ca8385e8ad2c68d258c26b71c9a8d7bb43eeb8c2f965e81eba47e433ad48416a@ec2-54-173-77-184.compute-1.amazonaws.com:5432/d23uekf7geop8k
-    username: bhskatbhfdioxd
-    password: ca8385e8ad2c68d258c26b71c9a8d7bb43eeb8c2f965e81eba47e433ad48416a
+#spring:
+ # jpa:
+  #  hibernate:
+    #  ddl-auto: update
+    # database-platform: org.hibernate.dialect.PostgreSQLDialect
+  # datasource:
+   # url: jdbc:postgres://bhskatbhfdioxd:ca8385e8ad2c68d258c26b71c9a8d7bb43eeb8c2f965e81eba47e433ad48416a@ec2-54-173-77-184.compute-1.amazonaws.com:5432/d23uekf7geop8k
+   # username: bhskatbhfdioxd
+   # password: ca8385e8ad2c68d258c26b71c9a8d7bb43eeb8c2f965e81eba47e433ad48416a
