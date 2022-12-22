@@ -1,11 +1,11 @@
 spring:
- jpa:
-   hibernate:
-    ddl-auto: update
-     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   datasource:
-    url: jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_afba0fcb96ebea9
-   username: bcc81fd479d4d1
-   password: 9b3dfdc7
-   hikari:
-    maxLifeTime: 20000
+    url: "jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_afba0fcb96ebea9"
+    username: bcc81fd479d4d1
+    password: 9b3dfdc7
+    hikari:
+      maxLifetime: 20000
