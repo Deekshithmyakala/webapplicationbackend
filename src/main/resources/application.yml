@@ -2,7 +2,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
   datasource:
     url: "jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_afba0fcb96ebea9"
     username: bcc81fd479d4d1
